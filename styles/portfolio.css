@@ -51,6 +51,10 @@
 
 
 
+.text-center{
+  text-align: center;
+}
+
 
 /* main style */
 
@@ -237,4 +241,42 @@ ul a {
   line-height: 28px;
   color: #757575;
   margin-bottom: 30px;
+}
+
+footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+
+}
+footer .footer-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+
+}
+
+.footer-container .social{
+  max-width: 526px;
+}
+
+.footer-container h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+
+}
+.footer-container .social p{
+  font-size:16px ;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.footer-container .icons a{
+  margin-right: 24px;
+
 }
